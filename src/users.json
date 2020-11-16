@@ -1,0 +1,162 @@
+[
+  {
+    "gender": "male",
+    "name": "Franjo Senf",
+    "email": "franjo.senf@example.com",
+    "username": "purpleleopard340",
+    "age": 52,
+    "picture": "https://randomuser.me/api/portraits/men/33.jpg"
+  },
+  {
+    "gender": "male",
+    "name": "Kees Hindriks",
+    "email": "kees.hindriks@example.com",
+    "username": "bigzebra606",
+    "age": 23,
+    "picture": "https://randomuser.me/api/portraits/men/26.jpg"
+  },
+  {
+    "gender": "male",
+    "name": "Nikolas Nyseth",
+    "email": "nikolas.nyseth@example.com",
+    "username": "sadmouse387",
+    "age": 29,
+    "picture": "https://randomuser.me/api/portraits/men/21.jpg"
+  },
+  {
+    "gender": "female",
+    "name": "Julie Dumont",
+    "email": "julie.dumont@example.com",
+    "username": "orangeleopard217",
+    "age": 23,
+    "picture": "https://randomuser.me/api/portraits/women/26.jpg"
+  },
+  {
+    "gender": "male",
+    "name": "سام کریمی",
+    "email": "sm.khrymy@example.com",
+    "username": "angryfrog824",
+    "age": 42,
+    "picture": "https://randomuser.me/api/portraits/men/69.jpg"
+  },
+  {
+    "gender": "male",
+    "name": "Enes Francois",
+    "email": "enes.francois@example.com",
+    "username": "angrysnake639",
+    "age": 32,
+    "picture": "https://randomuser.me/api/portraits/men/40.jpg"
+  },
+  {
+    "gender": "female",
+    "name": "Solène Blanchard",
+    "email": "solene.blanchard@example.com",
+    "username": "redmouse434",
+    "age": 66,
+    "picture": "https://randomuser.me/api/portraits/women/13.jpg"
+  },
+  {
+    "gender": "female",
+    "name": "Delia Philippe",
+    "email": "delia.philippe@example.com",
+    "username": "brownelephant965",
+    "age": 43,
+    "picture": "https://randomuser.me/api/portraits/women/26.jpg"
+  },
+  {
+    "gender": "male",
+    "name": "Mücahid Issa",
+    "email": "mucahid.issa@example.com",
+    "username": "blackzebra596",
+    "age": 27,
+    "picture": "https://randomuser.me/api/portraits/men/89.jpg"
+  },
+  {
+    "gender": "male",
+    "name": "Apostolos Meisel",
+    "email": "apostolos.meisel@example.com",
+    "username": "crazymouse908",
+    "age": 29,
+    "picture": "https://randomuser.me/api/portraits/men/10.jpg"
+  },
+  {
+    "gender": "male",
+    "name": "Tristan Bergeron",
+    "email": "tristan.bergeron@example.com",
+    "username": "whitezebra207",
+    "age": 56,
+    "picture": "https://randomuser.me/api/portraits/men/61.jpg"
+  },
+  {
+    "gender": "female",
+    "name": "Silje Olsen",
+    "email": "silje.olsen@example.com",
+    "username": "whitemouse440",
+    "age": 26,
+    "picture": "https://randomuser.me/api/portraits/women/46.jpg"
+  },
+  {
+    "gender": "male",
+    "name": "Phoenix Roberts",
+    "email": "phoenix.roberts@example.com",
+    "username": "sadpeacock342",
+    "age": 43,
+    "picture": "https://randomuser.me/api/portraits/men/5.jpg"
+  },
+  {
+    "gender": "male",
+    "name": "Clóvis Dias",
+    "email": "clovis.dias@example.com",
+    "username": "bigdog685",
+    "age": 66,
+    "picture": "https://randomuser.me/api/portraits/men/76.jpg"
+  },
+  {
+    "gender": "male",
+    "name": "Oswald Lemke",
+    "email": "oswald.lemke@example.com",
+    "username": "heavypanda304",
+    "age": 63,
+    "picture": "https://randomuser.me/api/portraits/men/14.jpg"
+  },
+  {
+    "gender": "male",
+    "name": "Levi Clarke",
+    "email": "levi.clarke@example.com",
+    "username": "yellowelephant773",
+    "age": 52,
+    "picture": "https://randomuser.me/api/portraits/men/98.jpg"
+  },
+  {
+    "gender": "male",
+    "name": "Jack Wilson",
+    "email": "jack.wilson@example.com",
+    "username": "silversnake905",
+    "age": 33,
+    "picture": "https://randomuser.me/api/portraits/men/96.jpg"
+  },
+  {
+    "gender": "female",
+    "name": "Victoria Campos",
+    "email": "victoria.campos@example.com",
+    "username": "beautifulswan227",
+    "age": 70,
+    "picture": "https://randomuser.me/api/portraits/women/24.jpg"
+  },
+  {
+    "gender": "male",
+    "name": "Ramon Fisher",
+    "email": "ramon.fisher@example.com",
+    "username": "goldenzebra196",
+    "age": 47,
+    "picture": "https://randomuser.me/api/portraits/men/31.jpg"
+  },
+  {
+    "gender": "female",
+    "name": "Malgorzata Sperber",
+    "email": "malgorzata.sperber@example.com",
+    "username": "whiterabbit534",
+    "age": 66,
+    "picture": "https://randomuser.me/api/portraits/women/35.jpg"
+  }
+]

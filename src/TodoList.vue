@@ -1,6 +1,6 @@
 <template>
   <div>
-    <input v-model="text"/>
+    <input v-model="text" ref="ipt"/>
     <button @click="addTodo">Submit</button>
     <ol>
         <li v-for="item in list" 
@@ -40,6 +40,9 @@ export default {
           const idx = this.list.indexOf(item)
           this.list.splice(idx,1)
       },
-  }
+  },
+  mounted() {
+    this.$refs.ipt.focus();
+  },
 };
 </script>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <h1>Calc</h1>
+        <input v-model.number="monthPay"/>
+        <hr/>
+        Daily pay: {{ daily }} <br/>
+        Hourly pay: {{ hourly }} <br/>
+        Minute pay: {{ minute }} <br/>
+        Second pay: {{ second }} <br/>
+        <hr/>
+        I've earned {{ earned }}
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+
+    <script>
+        new Vue({
+            el: '#app',
+            data: () => ({ 
+               monthPay : 0,
+               start: Date.now(),
+               now: Date.now(),
+            }),
+            computed: {
+                daily() {
+                    return this.monthPay / 30;
+                },
+                hourly() {
+                    return this.daily /8;
+                },
+                minute() {
+                    return this.hourly /8;
+                },
+                second() {
+                    return this.minute /8;
+                },
+                earned() {
+                    return this.second * (this.now - this.start) / 1000;
+                }
+            },
+            mounted() {
+                setInterval(this.update, 100);
+            },
+            methods: {
+                update() {
+                    this.now = Date.now();
+                },
+            }
+        })
+    </script>
+</body>
+</html>
