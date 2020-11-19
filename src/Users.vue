@@ -36,7 +36,7 @@
 </template>
 
 <script>
-// import users from './users.json'
+import users from './users.json'
 export default {
     //first load : mouted -> created(init data) 
     mounted() {
@@ -45,7 +45,7 @@ export default {
         .then(data => this.users = data);
     },
     data:()=> ({
-      users: [],
+      users,
       gender: "all",
       age: "all",
       order: "asc"

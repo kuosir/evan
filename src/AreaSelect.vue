@@ -21,7 +21,7 @@ import zipcode from "./zipcode.json";
 
 export default {
   props: {
-    zipcode: {
+    zipcodes: {
       type: Object,
       default: () => zipcode,
     },
@@ -32,7 +32,7 @@ export default {
   }),
   computed: {
     cities() {
-      return this.zipcode.cities;
+      return this.zipcodes.cities;
     },
     regions() {
       const city = this.cities.find((city) => city.code === this.cityCode);

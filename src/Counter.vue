@@ -1,6 +1,7 @@
 <template>
   <div>
     <button @click="add">Add {{ step }}</button>
+    <button @click="addGlobal">Add Global</button>
     <h1>{{ count }}</h1>
   </div>
 </template>
@@ -15,6 +16,10 @@ export default {
     add() {
       this.count += this.step;
       this.step += 1;
+    },
+    addGlobal() {
+      //this.$store.commit("addCount");
+      this.$store.dispatch("add");
     },
   },
 };
